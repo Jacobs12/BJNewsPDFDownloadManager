@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F3681AF1F6142AF0046B504 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3681AE1F6142AF0046B504 /* main.m */; };
+		4F3681B21F6142AF0046B504 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3681B11F6142AF0046B504 /* AppDelegate.m */; };
+		4F3681B51F6142AF0046B504 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3681B41F6142AF0046B504 /* ViewController.m */; };
+		4F3681B81F6142AF0046B504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F3681B61F6142AF0046B504 /* Main.storyboard */; };
+		4F3681BA1F6142AF0046B504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F3681B91F6142AF0046B504 /* Assets.xcassets */; };
+		4F3681BD1F6142AF0046B504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F3681BB1F6142AF0046B504 /* LaunchScreen.storyboard */; };
+		4F3681C81F6142AF0046B504 /* BJNewsPDFDownloadManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3681C71F6142AF0046B504 /* BJNewsPDFDownloadManagerTests.m */; };
+		4F3681D31F6142AF0046B504 /* BJNewsPDFDownloadManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3681D21F6142AF0046B504 /* BJNewsPDFDownloadManagerUITests.m */; };
+		4F3681E41F6143060046B504 /* BJNewsPDFManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3681E31F6143060046B504 /* BJNewsPDFManager.m */; };
+		4F3681E71F61437B0046B504 /* BJNewsPDFSessionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3681E61F61437B0046B504 /* BJNewsPDFSessionRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F3681C41F6142AF0046B504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F3681A21F6142AF0046B504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F3681A91F6142AF0046B504;
+			remoteInfo = BJNewsPDFDownloadManager;
+		};
+		4F3681CF1F6142AF0046B504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F3681A21F6142AF0046B504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F3681A91F6142AF0046B504;
+			remoteInfo = BJNewsPDFDownloadManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F3681AA1F6142AF0046B504 /* BJNewsPDFDownloadManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BJNewsPDFDownloadManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F3681AE1F6142AF0046B504 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F3681B01F6142AF0046B504 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F3681B11F6142AF0046B504 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F3681B31F6142AF0046B504 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F3681B41F6142AF0046B504 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F3681B71F6142AF0046B504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F3681B91F6142AF0046B504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F3681BC1F6142AF0046B504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F3681BE1F6142AF0046B504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F3681C31F6142AF0046B504 /* BJNewsPDFDownloadManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BJNewsPDFDownloadManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F3681C71F6142AF0046B504 /* BJNewsPDFDownloadManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJNewsPDFDownloadManagerTests.m; sourceTree = "<group>"; };
+		4F3681C91F6142AF0046B504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F3681CE1F6142AF0046B504 /* BJNewsPDFDownloadManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BJNewsPDFDownloadManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F3681D21F6142AF0046B504 /* BJNewsPDFDownloadManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJNewsPDFDownloadManagerUITests.m; sourceTree = "<group>"; };
+		4F3681D41F6142AF0046B504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F3681E21F6143060046B504 /* BJNewsPDFManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJNewsPDFManager.h; sourceTree = "<group>"; };
+		4F3681E31F6143060046B504 /* BJNewsPDFManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJNewsPDFManager.m; sourceTree = "<group>"; };
+		4F3681E51F61437B0046B504 /* BJNewsPDFSessionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJNewsPDFSessionRequest.h; sourceTree = "<group>"; };
+		4F3681E61F61437B0046B504 /* BJNewsPDFSessionRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJNewsPDFSessionRequest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F3681A71F6142AF0046B504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F3681C01F6142AF0046B504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F3681CB1F6142AF0046B504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F3681A11F6142AF0046B504 = {
+			isa = PBXGroup;
+			children = (
+				4F3681AC1F6142AF0046B504 /* BJNewsPDFDownloadManager */,
+				4F3681C61F6142AF0046B504 /* BJNewsPDFDownloadManagerTests */,
+				4F3681D11F6142AF0046B504 /* BJNewsPDFDownloadManagerUITests */,
+				4F3681AB1F6142AF0046B504 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F3681AB1F6142AF0046B504 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F3681AA1F6142AF0046B504 /* BJNewsPDFDownloadManager.app */,
+				4F3681C31F6142AF0046B504 /* BJNewsPDFDownloadManagerTests.xctest */,
+				4F3681CE1F6142AF0046B504 /* BJNewsPDFDownloadManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F3681AC1F6142AF0046B504 /* BJNewsPDFDownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				4F3681E11F6142F10046B504 /* BJNewsPDFManager */,
+				4F3681B01F6142AF0046B504 /* AppDelegate.h */,
+				4F3681B11F6142AF0046B504 /* AppDelegate.m */,
+				4F3681B31F6142AF0046B504 /* ViewController.h */,
+				4F3681B41F6142AF0046B504 /* ViewController.m */,
+				4F3681B61F6142AF0046B504 /* Main.storyboard */,
+				4F3681B91F6142AF0046B504 /* Assets.xcassets */,
+				4F3681BB1F6142AF0046B504 /* LaunchScreen.storyboard */,
+				4F3681BE1F6142AF0046B504 /* Info.plist */,
+				4F3681AD1F6142AF0046B504 /* Supporting Files */,
+			);
+			path = BJNewsPDFDownloadManager;
+			sourceTree = "<group>";
+		};
+		4F3681AD1F6142AF0046B504 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F3681AE1F6142AF0046B504 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F3681C61F6142AF0046B504 /* BJNewsPDFDownloadManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F3681C71F6142AF0046B504 /* BJNewsPDFDownloadManagerTests.m */,
+				4F3681C91F6142AF0046B504 /* Info.plist */,
+			);
+			path = BJNewsPDFDownloadManagerTests;
+			sourceTree = "<group>";
+		};
+		4F3681D11F6142AF0046B504 /* BJNewsPDFDownloadManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F3681D21F6142AF0046B504 /* BJNewsPDFDownloadManagerUITests.m */,
+				4F3681D41F6142AF0046B504 /* Info.plist */,
+			);
+			path = BJNewsPDFDownloadManagerUITests;
+			sourceTree = "<group>";
+		};
+		4F3681E11F6142F10046B504 /* BJNewsPDFManager */ = {
+			isa = PBXGroup;
+			children = (
+				4F3681E21F6143060046B504 /* BJNewsPDFManager.h */,
+				4F3681E31F6143060046B504 /* BJNewsPDFManager.m */,
+				4F3681E51F61437B0046B504 /* BJNewsPDFSessionRequest.h */,
+				4F3681E61F61437B0046B504 /* BJNewsPDFSessionRequest.m */,
+			);
+			path = BJNewsPDFManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F3681A91F6142AF0046B504 /* BJNewsPDFDownloadManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F3681D71F6142AF0046B504 /* Build configuration list for PBXNativeTarget "BJNewsPDFDownloadManager" */;
+			buildPhases = (
+				4F3681A61F6142AF0046B504 /* Sources */,
+				4F3681A71F6142AF0046B504 /* Frameworks */,
+				4F3681A81F6142AF0046B504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BJNewsPDFDownloadManager;
+			productName = BJNewsPDFDownloadManager;
+			productReference = 4F3681AA1F6142AF0046B504 /* BJNewsPDFDownloadManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F3681C21F6142AF0046B504 /* BJNewsPDFDownloadManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F3681DA1F6142AF0046B504 /* Build configuration list for PBXNativeTarget "BJNewsPDFDownloadManagerTests" */;
+			buildPhases = (
+				4F3681BF1F6142AF0046B504 /* Sources */,
+				4F3681C01F6142AF0046B504 /* Frameworks */,
+				4F3681C11F6142AF0046B504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F3681C51F6142AF0046B504 /* PBXTargetDependency */,
+			);
+			name = BJNewsPDFDownloadManagerTests;
+			productName = BJNewsPDFDownloadManagerTests;
+			productReference = 4F3681C31F6142AF0046B504 /* BJNewsPDFDownloadManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F3681CD1F6142AF0046B504 /* BJNewsPDFDownloadManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F3681DD1F6142AF0046B504 /* Build configuration list for PBXNativeTarget "BJNewsPDFDownloadManagerUITests" */;
+			buildPhases = (
+				4F3681CA1F6142AF0046B504 /* Sources */,
+				4F3681CB1F6142AF0046B504 /* Frameworks */,
+				4F3681CC1F6142AF0046B504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F3681D01F6142AF0046B504 /* PBXTargetDependency */,
+			);
+			name = BJNewsPDFDownloadManagerUITests;
+			productName = BJNewsPDFDownloadManagerUITests;
+			productReference = 4F3681CE1F6142AF0046B504 /* BJNewsPDFDownloadManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F3681A21F6142AF0046B504 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "派博在线（北京）科技有限责任公司";
+				TargetAttributes = {
+					4F3681A91F6142AF0046B504 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 42LRDW5LP3;
+						ProvisioningStyle = Automatic;
+					};
+					4F3681C21F6142AF0046B504 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 42LRDW5LP3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4F3681A91F6142AF0046B504;
+					};
+					4F3681CD1F6142AF0046B504 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 42LRDW5LP3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4F3681A91F6142AF0046B504;
+					};
+				};
+			};
+			buildConfigurationList = 4F3681A51F6142AF0046B504 /* Build configuration list for PBXProject "BJNewsPDFDownloadManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F3681A11F6142AF0046B504;
+			productRefGroup = 4F3681AB1F6142AF0046B504 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F3681A91F6142AF0046B504 /* BJNewsPDFDownloadManager */,
+				4F3681C21F6142AF0046B504 /* BJNewsPDFDownloadManagerTests */,
+				4F3681CD1F6142AF0046B504 /* BJNewsPDFDownloadManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F3681A81F6142AF0046B504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3681BD1F6142AF0046B504 /* LaunchScreen.storyboard in Resources */,
+				4F3681BA1F6142AF0046B504 /* Assets.xcassets in Resources */,
+				4F3681B81F6142AF0046B504 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F3681C11F6142AF0046B504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F3681CC1F6142AF0046B504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F3681A61F6142AF0046B504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3681B51F6142AF0046B504 /* ViewController.m in Sources */,
+				4F3681B21F6142AF0046B504 /* AppDelegate.m in Sources */,
+				4F3681AF1F6142AF0046B504 /* main.m in Sources */,
+				4F3681E71F61437B0046B504 /* BJNewsPDFSessionRequest.m in Sources */,
+				4F3681E41F6143060046B504 /* BJNewsPDFManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F3681BF1F6142AF0046B504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3681C81F6142AF0046B504 /* BJNewsPDFDownloadManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F3681CA1F6142AF0046B504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3681D31F6142AF0046B504 /* BJNewsPDFDownloadManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F3681C51F6142AF0046B504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F3681A91F6142AF0046B504 /* BJNewsPDFDownloadManager */;
+			targetProxy = 4F3681C41F6142AF0046B504 /* PBXContainerItemProxy */;
+		};
+		4F3681D01F6142AF0046B504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F3681A91F6142AF0046B504 /* BJNewsPDFDownloadManager */;
+			targetProxy = 4F3681CF1F6142AF0046B504 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F3681B61F6142AF0046B504 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F3681B71F6142AF0046B504 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F3681BB1F6142AF0046B504 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F3681BC1F6142AF0046B504 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F3681D51F6142AF0046B504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4F3681D61F6142AF0046B504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F3681D81F6142AF0046B504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 42LRDW5LP3;
+				INFOPLIST_FILE = BJNewsPDFDownloadManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.bjnews.BJNewsPDFDownloadManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F3681D91F6142AF0046B504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 42LRDW5LP3;
+				INFOPLIST_FILE = BJNewsPDFDownloadManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.bjnews.BJNewsPDFDownloadManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F3681DB1F6142AF0046B504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 42LRDW5LP3;
+				INFOPLIST_FILE = BJNewsPDFDownloadManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.bjnews.BJNewsPDFDownloadManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BJNewsPDFDownloadManager.app/BJNewsPDFDownloadManager";
+			};
+			name = Debug;
+		};
+		4F3681DC1F6142AF0046B504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 42LRDW5LP3;
+				INFOPLIST_FILE = BJNewsPDFDownloadManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.bjnews.BJNewsPDFDownloadManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BJNewsPDFDownloadManager.app/BJNewsPDFDownloadManager";
+			};
+			name = Release;
+		};
+		4F3681DE1F6142AF0046B504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 42LRDW5LP3;
+				INFOPLIST_FILE = BJNewsPDFDownloadManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.bjnews.BJNewsPDFDownloadManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BJNewsPDFDownloadManager;
+			};
+			name = Debug;
+		};
+		4F3681DF1F6142AF0046B504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 42LRDW5LP3;
+				INFOPLIST_FILE = BJNewsPDFDownloadManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.bjnews.BJNewsPDFDownloadManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BJNewsPDFDownloadManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F3681A51F6142AF0046B504 /* Build configuration list for PBXProject "BJNewsPDFDownloadManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3681D51F6142AF0046B504 /* Debug */,
+				4F3681D61F6142AF0046B504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F3681D71F6142AF0046B504 /* Build configuration list for PBXNativeTarget "BJNewsPDFDownloadManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3681D81F6142AF0046B504 /* Debug */,
+				4F3681D91F6142AF0046B504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F3681DA1F6142AF0046B504 /* Build configuration list for PBXNativeTarget "BJNewsPDFDownloadManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3681DB1F6142AF0046B504 /* Debug */,
+				4F3681DC1F6142AF0046B504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F3681DD1F6142AF0046B504 /* Build configuration list for PBXNativeTarget "BJNewsPDFDownloadManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3681DE1F6142AF0046B504 /* Debug */,
+				4F3681DF1F6142AF0046B504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F3681A21F6142AF0046B504 /* Project object */;
+}
